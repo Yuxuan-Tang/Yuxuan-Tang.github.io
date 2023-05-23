@@ -1,36 +1,36 @@
 # Yuxuan-Tang.github.io
 我的js笔记
-#浏览器组成
+# 浏览器组成
 渲染引擎：俗称内核 如Google的blink，旧称webkit
 js引擎
-#js组成
-ecmascript 基本语法
+# js组成
+ecmascript
 dom
 bom
-#js分类
+# js分类
 内嵌式
 行内式 html中推荐使用双引号，js中推荐单引号
 外部
-#js注释
+# js注释
 单行注释 ctrl+/
 多行注释 ctrl+alt+a
-#js输入输出语句
+# js输入输出语句
 alert
 console(.log)
 prompt        prompt得到的值是string
-#windows快捷键
+# windows快捷键
 f2 将选中的项目重命名
 alt+tab 切换已经打开的应用
-#js变量
+# js变量
 变量是指一块存放数据的内存空间
 变量初始化
-#js变量的数据类型
+# js变量的数据类型
 js是一种弱类型语言，变量的数据类型是根据变量的值自动确定的，同时也是一种动态语言，变量的数据类型可以转变。
 typeof()检测数据类型
 简单数据类型：number,boolean,str,undefined,null
 number:有三个特殊:NaN infinity，-infinity isNaN()函数返回一个bool值
 复杂数据类型:object
-#数据类型转换
+# 数据类型转换
 >1.转换为字符串
 变量名.tostring()
 string()
@@ -44,15 +44,15 @@ Number()
 
 >3.转换为bool
 Boolean()
-#编译型语言和解释型语言
+# 编译型语言和解释型语言
 前者先全部编写完成后生成中间代码文件，然后再执行
 后者边编写边执行
-#标识符 关键字 保留字
+# 标识符 关键字 保留字
 标识符是指开发人员为变量，属性，函数，参数取的名字
 保留字是指预留的关键字
-#表达式和返回值
+# 表达式和返回值
 表达式是指由变量，数字，运算符组成的有意义的式子
-#逻辑运算符
+# 逻辑运算符
 逻辑中断
 #js数组
 数组元素的数据类型任意
